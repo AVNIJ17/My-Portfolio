@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avni Jain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hola ! <br>I'm <span>Avni</span> Jain</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate Full Stack Developer who loves to explore new technologies and build scalable applications. Although I expertize in full-stack development, I prefer to work on the frontend of any application.
+                        I continue to fuel my passion for innovation and problem-solving, always seeking new ways to enhance the user experience and elevate the applications I develop.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('projects')">Projects</p> -->
+                    <!-- <p class="tab-links" onclick="opentab('education')">Educations</p> -->
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming and Scripting Languages</span><BR>Java      <i class="fa-brands fa-java"></i>
+                            <br> Javascript     <i class="fa-brands fa-js"></i></li>
+                        <li><span>Databases</span><BR>My-SQL<i class="fa-solid fa-database"></i>
+                            <br> No-SQL<i class="fa-solid fa-database"></i></li>
+                        <li><span>Web Development</span><BR>
+                            HTML<i class="fa-brands fa-html5"></i><br>
+                            CSS<i class="fa-brands fa-css3"></i><br>
+                            React<i class="fa-brands fa-react"></i><br>
+                            NodeJS<i class="fa-brands fa-node"></i><br>
+                            SpringBoot<i class="fa-brands fa-react"></i><br>
+                            Bootstrap  <i class="fa-brands fa-bootstrap"></i><br>
+                            Git  <i class="fa-brands fa-github"></i></i><br>
+                            
+                        
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                    </ul>
+                </div> -->
+                <!-- <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                        <li><span>UI</span><BR>DESGIKNHVHGVASVFK FVIUAWV</li>
+                    </ul>
+                </div> -->
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2>Full Stack Web Development</h2>
+                <p>I specialize in developing dynamic and interactive web applications from concept to deployment. Whether it's creating engaging user interfaces or building robust backend systems, I have the skills and expertise to bring your ideas to life.</p>
+            </div>
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2>Responsive Design</h2>
+                <p>In today's mobile-first world, it's crucial for websites to be responsive and accessible across all devices. I prioritize responsive design principles to ensure that your website looks great and functions flawlessly on desktops, tablets, and smartphones.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2>Maintenance and Support</h2>
+                <p>My services don't end with the launch of your project. I provide ongoing maintenance and support to ensure that your applications remain secure, up-to-date, and running smoothly. Whether it's fixing bugs, implementing updates, or scaling your infrastructure, I'm here to help.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Oxygen Managment System</h3>
+                    <p>A comprehensive digital solution for tracking stock levels, streamlining procurement processes, and optimizing inventory turnover for businesses.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>An online hub encapsulating my skills, achievements, and projects, offering a compelling glimpse into my capabilities and professional profile.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>FitBuddy</h3>
+                    <p> Developed a dynamic platform promoting health and wellness, offering personalized workout routines and nutritional guidance to users, fostering a community dedicated to fitness.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+<!-- ---------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>  avnijain1705@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>  +91-9131174073</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/avnijain17"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AVNIJ17"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          
+            </div>
+            <a href="images/Avni Jain_CV.pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Type Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>copyright@AvniJain.com.Allrightsreserved</p>
+    </div>
+</div>
+<!-- ----------------------------- -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7wMGT6bJCGALEkWJAD66bX_6ax4dY8dEdWDDdTQYU7WxDLH0nNkVXTwFwaSpruyI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Successfully Sent"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
